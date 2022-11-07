@@ -5,6 +5,7 @@ Objects/
 *.uvopt
 code
 *A51
+*.uvproj
 
 # Proteus Stuff
 Proteus Simulation/*.workspace
