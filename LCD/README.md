@@ -31,5 +31,10 @@ The LCD Consists of two registers as shown below.
 # Connection with the 8051 microcontroller
 ![Image showing the connection of the LCD with the 8051 microcontroller](data/LCD%208051%20Connection.png)
 
+# Final Results
+After coding the 8051 Microcontroller I got the final results as shown in the image below. (Very satisfying)
+
+![Image showing the output of the simulation](data/Final%20Results.png)
+
 
 - _This Project is heavily inspired by a course taken from [www.udemy.com](https://www.udemy.com/course/8051-microcontroller-embedded-c-and-assembly-language/)_
