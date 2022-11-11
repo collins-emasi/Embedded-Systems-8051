@@ -4,14 +4,23 @@
 #define 	LED_OFF		0x00
 
 void ms_delay();
+void delay(unsigned int ms_time);
 
 void main(void){
 	TMOD = 0x01;		// Timer mode 1, 16 bit mode
 	
 	while (1){
 		P1 = LED_ON;
-		ms_delay();
+		delay(1000);
 		P1 = LED_OFF;
+		delay(1000);
+	}
+}
+
+void delay(unsigned int ms_time){
+	unsigned int i;
+	
+	for (i = 0; i < (ms_time/5); i++){
 		ms_delay();
 	}
 }
