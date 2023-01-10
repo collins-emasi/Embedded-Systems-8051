@@ -1,0 +1,4 @@
+".\Objects\STARTUP.obj",
+".\Objects\relay.obj" 
+TO ".\Objects\relay" 
+PRINT(".\Listings\relay.m51")
